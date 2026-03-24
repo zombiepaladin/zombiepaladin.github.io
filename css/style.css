@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  color: #333;
+}
+
+nav {
+  margin-top: -0.7rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #333;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  color: gold;
+}
+
+footer {
+  text-align: center;
+}
+
+.content {
+  max-width: 780px;
+  padding: 2rem;
+}
+
+.h1 {
+  font-size: 2rem;
+}
+
+.identity-list {
+  font-size: 1.2rem;
+  list-style: none;
+  color: #555;
+  padding: 0;
+  margin: 0;
+}
